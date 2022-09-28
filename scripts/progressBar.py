@@ -35,7 +35,7 @@ class progressBar(object):
         # default is set to 0
         prgBar.setValue(1)
         # set Maximum for progressBar
-        prgBar.setMaximum(inMaxStep)
+        prgBar.setMaximum(int(inMaxStep))
 
     def addStep(self, step=1):
         """!@brief Add a step to the progressBar
